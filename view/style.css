@@ -410,7 +410,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 @media only screen and (orientation: landscape) and (max-width: 767px)  {
 
     .jumbotron {
-      -webkit-background-size: 150% auto;
+      -webkit-background-size: 100% auto;
       background-attachment: scroll;
     }
 	
