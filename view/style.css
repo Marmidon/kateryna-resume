@@ -64,8 +64,8 @@ p.statement {
 }
 
 .background-grey {
-	background-color: #E0D2A7;
-	
+    /* background-color: #E0D2A7;*/
+    background-color: #F8FFF4;
 }
 
 .passed {
