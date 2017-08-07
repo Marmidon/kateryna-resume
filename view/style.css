@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {  margin-bottom
 h1,h4 { font-weight: 700; margin-bottom: 10px; text-decoration-color: #FFCC99; font-family: 'Calligraffitti', cursive;}
 h2,h3 { font-weight: 300; color: black; } /*#22A39F*/
 h2 { font-size: 54px; text-align: center; }
-h3 { font-size: 40px; text-align: center; }
+h3 { font-size: 30px; text-align: center; }
 
 .lead {
     font-family: 'Calligraffitti', cursive;
@@ -76,7 +76,7 @@ p.statement {
 }
 
 .Npassed {
-	font-size: 20px;
+	font-size: 15px;
 	margin-bottom: 10px;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -195,7 +195,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	
 	margin-bottom: 0px;
 	padding: 0px;
-}  
+}
 
 
 .jumbotron .overlay { /*background-color: ##848484;*/ background-color: #3366CC; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.75; filter:alpha(opacity=75); z-index: 2; }
@@ -225,7 +225,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .container { max-width: 1280px; padding: 40px 180px; }
 
 #profile .row > div { margin-bottom: 20px; }
-#profile .row > div img { width: 100%; max-width: 246px; height: auto; }
+#profile .row > div img { width: 100%; max-width: 350px; height: auto; }
 	
 #experiences .experience { margin-bottom: 20px; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
@@ -323,13 +323,6 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	z-index:99999;
 }
 
-.opl a {
-	width:73px;
-	height:56px;
-	text-indent:-9999px;
-	display:block;
-	background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') no-repeat;
-}
 
 @media (max-width: 1200px) { 
 	#interests .interest-content { padding: 20px 0px; }
@@ -367,7 +360,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
     .jumbotron {
-      -webkit-background-size: auto 150%;
+      -webkit-background-size: auto 100%;
       background-attachment: scroll;
     }
     .navbar-header {
